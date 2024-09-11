@@ -30,6 +30,7 @@ img {
   margin: auto;
   max-width: 880px;
 }
+
 @font-face {
   font-family: "Eina Light";
   src: url("./../font/Eina01-Light.ttf");

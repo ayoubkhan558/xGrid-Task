@@ -15,3 +15,11 @@ The following JavaScript libraries are used in this project:
 
 3. **Bootstrap**: Primarily used for the grid layout system.
    - Documentation: [Bootstrap Documentation](https://getbootstrap.com/)
+
+### SCSS Usage
+
+The project uses **SCSS** for styling. Here's how you can compile and use it:
+
+- **SCSS File Structure:**
+  - Place your SCSS files inside `./assets/scss/`.
+  - Output file will created in  `./assets/css/`.
