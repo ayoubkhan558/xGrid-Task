@@ -1,0 +1,66 @@
+:root {
+  // COLORs
+  --color-primary: #006DF0;
+  --color-dark: #181B23;
+
+  // FONTS
+  --eina-light: "Eina Light";
+  --eina: "Eina";
+  --eina-semibold: "Eina SemiBold";
+  --eina-bold: "Eina Bold";
+
+  --padding-sm: 32px;
+}
+
+body {
+  scroll-behavior: smooth;
+  line-height: 1.35;
+  font-family: var(--eina);
+
+  b {
+    font-weight: 500;
+    font-family: var(--eina-semibold);
+  }
+}
+
+
+img {
+  max-width: 100%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.container-narrow {
+  margin: auto;
+  max-width: 880px;
+  // padding: 0 22px;
+
+  // Small devices (landscape phones)
+  @media (min-width: 576px) {}
+
+  // Medium devices (tablets)
+  @media (min-width: 768px) {
+    // padding: 0 25px;
+  }
+
+  // Large devices (desktops)
+  @media (min-width: 992px) {
+    // padding: 0 35px;
+  }
+
+  // X-Large devices (large desktops)
+  @media (min-width: 1200px) {}
+
+  // XX-Large devices (larger desktops)
+  @media (min-width: 1400px) {}
+}
+
+
+@import "./fonts";
+@import "./sections/animation";
+@import "./sections/hero";
+@import "./sections/brand";
+@import "./sections/logo";
+@import "./sections/video";

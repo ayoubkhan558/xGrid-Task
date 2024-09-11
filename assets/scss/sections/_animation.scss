@@ -1,0 +1,67 @@
+// Scroll OUT CSS
+[data-scroll="out"] {
+  opacity: 0;
+}
+
+
+[data-scroll] {
+  opacity: 0;
+  will-change: transform, scale, opacity;
+  transform: translateY(6rem) scale(0.93);
+  transition: all 1.5s ease;
+}
+
+[data-scroll="in"] {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+// ===========================
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1.5s ease-in forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.zoom-in-up {
+  position: relative;
+  animation: zoomInUp 1s ease-in-out alternate;
+}
+
+@keyframes zoomInUp {
+  0% {
+    transform: translateY(20px) scale(0.9);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+}
+
+.zoom-in-down {
+  position: relative;
+  animation: zoomInDown 1s ease-in-out alternate;
+}
+
+@keyframes zoomInDown {
+  0% {
+    transform: translateY(-20px) scale(0.9);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+}
