@@ -1,39 +1,17 @@
-Hi Muhammad Ayoub,
+# xninetysix Task
 
-Thank you for your interest in the position and for attending the interview session with us.
-
-As part of the next step in our selection process, we would like you to design the first and video production section of the company portfolio page as we discussed in the interview session.
-
-Here is the link to help you get started:
-
+# Link
 https://www.xninetysix.com/casestudy-alkira
-Please complete the task and share the results with us by [11-Sep-2024].
 
-If you have any questions or need further clarification, feel free to reach out.
+## Scripts
 
-Looking forward to seeing your work!
+The following JavaScript libraries are used in this project:
 
-Best regards,
+1. **Scroll Out**: Used for scroll-based animations.
+   - Documentation: [Scroll Out GitHub](https://github.com/scroll-out/scroll-out)
 
-Guloona Imtiaz
-Web Development Lead
-Xgrid.co
+2. **Glide.js**: A lightweight JavaScript library for building carousels.
+   - Documentation: [Glide.js Documentation](https://glidejs.com/)
 
-
-// X-Small devices (portrait phones, less than 576px)
-// No media query for `xs` since this is the default in Bootstrap
-
-// Small devices (landscape phones)
-@media (min-width: 576px) {  }
-
-// Medium devices (tablets)
-@media (min-width: 768px) {  }
-
-// Large devices (desktops)
-@media (min-width: 992px) {  }
-
-// X-Large devices (large desktops)
-@media (min-width: 1200px) {  }
-
-// XX-Large devices (larger desktops)
-@media (min-width: 1400px) {  }
+3. **Bootstrap**: Primarily used for the grid layout system.
+   - Documentation: [Bootstrap Documentation](https://getbootstrap.com/)
