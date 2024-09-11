@@ -645,8 +645,8 @@ section.video #mockups .glide__arrow {
 }
 section.video #marketing .glide__arrow img,
 section.video #mockups .glide__arrow img {
-  height: 85%;
-  width: 85%;
+  height: 100%;
+  width: 100%;
 }
 section.video #marketing .glide__arrow--right img,
 section.video #mockups .glide__arrow--right img {
