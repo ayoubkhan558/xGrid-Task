@@ -698,20 +698,24 @@ section.video .slider-text-description {
   font-size: 15px;
   margin-bottom: 10px;
 }
+section.video #marketing .glide__arrow--right {
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
+}
 section.video #marketing .glide__arrow--left {
   -webkit-transform: translateX(0px);
           transform: translateX(0px);
 }
 @media (min-width: 768px) {
   section.video #marketing .glide__arrow--left {
-    -webkit-transform: translateX(0px);
-            transform: translateX(0px);
+    -webkit-transform: translateX(75px);
+            transform: translateX(75px);
   }
 }
 @media (min-width: 992px) {
   section.video #marketing .glide__arrow--left {
-    -webkit-transform: translateX(-75px);
-            transform: translateX(-75px);
+    -webkit-transform: translateX(-115px);
+            transform: translateX(-115px);
   }
 }
 section.video .polygon-shape {
@@ -754,6 +758,19 @@ section.video .polygon-shape {
 @media (min-width: 992px) {
   .video-inner .text-block-title {
     font-size: 50px;
+  }
+}
+.video-inner .text-block-body {
+  padding-left: 0px;
+}
+@media (min-width: 768px) {
+  .video-inner .text-block-body {
+    padding-left: 0px;
+  }
+}
+@media (min-width: 992px) {
+  .video-inner .text-block-body {
+    padding-left: 55px;
   }
 }
 .video-inner .text-block-heading {

@@ -129,6 +129,9 @@ section.video {
   }
 
   #marketing {
+    .glide__arrow--right {
+      transform: translateX(0px);
+    }
 
     .glide__arrow--left {
       transform: translateX(0px);
@@ -138,12 +141,12 @@ section.video {
 
       // Medium devices (tablets)
       @media (min-width: 768px) {
-        transform: translateX(0px);
+        transform: translateX(75px);
       }
 
       // Large devices (desktops)
       @media (min-width: 992px) {
-        transform: translateX(-75px);
+        transform: translateX(-115px);
       }
 
       // X-Large devices (large desktops)
@@ -215,7 +218,28 @@ section.video {
       @media (min-width: 1400px) {}
     }
 
-    &-body {}
+    &-body {
+      padding-left: 0px;
+
+      // Small devices (landscape phones)
+      @media (min-width: 576px) {}
+
+      // Medium devices (tablets)
+      @media (min-width: 768px) {
+        padding-left: 0px;
+      }
+
+      // Large devices (desktops)
+      @media (min-width: 992px) {
+        padding-left: 55px;
+      }
+
+      // X-Large devices (large desktops)
+      @media (min-width: 1200px) {}
+
+      // XX-Large devices (larger desktops)
+      @media (min-width: 1400px) {}
+    }
 
 
     &-heading {

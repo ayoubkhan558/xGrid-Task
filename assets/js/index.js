@@ -1,7 +1,12 @@
 (function () {
   ScrollOut({
-    threshold: .2,
+    threshold: .3,
     once: false
+  });
+  ScrollOut({
+    scrollingElement: ".brand-wrapper",
+    threshold: .3,
+    once: true
   });
 
   var glide1 = new Glide('#marketing', {
